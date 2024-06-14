@@ -1,0 +1,104 @@
+.footer{
+    background-color: #2F303A;
+    display: flex;
+    height: 252px;
+    &__logo {
+        font-family: "Raleway", sans-serif;
+        font-size: 24px;
+        line-height: 28px;
+        font-weight: 700;
+        padding-top: 60px;
+        color: #fff;
+
+        span {
+            color: #2196F3;
+        }
+    }
+    &__address {
+        font-family: "Raleway", sans-serif;
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 400;
+        color: #fff;
+        padding-top: 8px;
+    }
+
+    &__mail {
+        font-family: "Raleway", sans-serif;
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 400;
+        color: #FFFFFF99;
+        padding-top: 8px;
+    }
+
+    &__tel {
+        font-family: "Raleway", sans-serif;
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 400;
+        color: #FFFFFF99;
+        padding-top: 8px;
+    }
+&__social{
+    flex-wrap: nowrap;
+    // margin-top: -110px;
+    padding-left: 300px;
+
+    h3 {
+        font-family: "Raleway", sans-serif;
+        font-size: 14px;
+        line-height: 16px;
+        font-weight: 700;
+        color: #fff;
+    margin-bottom: 20px;
+
+    }
+    &__imgs {
+        gap: 10px;
+    
+        justify-content: center;
+        padding: 20px 137px;
+    }
+}
+
+
+&__inp-text {
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 700;
+    color: #fff;
+margin-left: 600px;
+    margin-top: 60px;
+}
+
+&__input {
+width: 358px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    border-radius: 4px;
+    background-color: #2F303A;
+    color: #FFFFFF4D;
+    border-color: #FFFFFF4D;
+    margin-top: 20px;
+    padding-left: 16px ;
+    margin-left: 600px;
+}
+&__btn{
+    width: 200px;
+    height: 50px;
+    align-items: center;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 700;
+    background-color: #2196F3;
+    border-radius: 4px;
+    border: none;
+gap: 15px;
+    color: #fff;
+   
+}
+}

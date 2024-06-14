@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+  <div class="container">
+    <header class="flex">
+      <div class="header-logo"><span>Web</span>Studio</div>
+      <ul class="menu ">
+        <li><a href="" class="link link1">Студія</a></li>
+        <li><a href="" class="link link1">Портфоліо</a></li>
+        <li><a href="" class="link link1">Контакти</a></li>
+
+      </ul>
+      <ul class="menu">
+        <li><a href="tel:+38 096 111 11 11" class="link link2-1">+38 096 111 11 11</a></li>
+        <li><a href="mailto:info@devstudio.com" class="link link2">info@devstudio.com</a></li>
+
+
+
+      </ul>
+
+  </div>
+  <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+    <svg width="24" height="24" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd"
+        d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+        clip-rule="evenodd"></path>
+    </svg>
+  </button>
+  </header>
+  <main>
+
+    <section class="part1">
+      <div class="container">
+        <h1 class="part1__text">Ефективні рішення для вашого бізнесу</h1>
+        <button type="button" class="part1__btn">Замовити
+          послугу </button>
+      </div>
+    </section>
+    <section class="part2 flex">
+      <div class="container">
+        <ul class="part2__list flex">
+          <li class="list-item">
+            <div class="list-item__box">
+              <picture class="list-item__img">
+                <source srcset="./images/antenna@1x.png" media="(max-width: 480px)">
+                <source srcset="./images/antenna@2x.png" media="(min-width: 843px)">
+                <source srcset="./images/antenna@3x.png" media="(max-width: 1200px)">
+                <img src="./images/antenna@1x.png" alt="Cute puppy" width="70px">
+              </picture>
+            </div>
+            <h3 class="list-item__para">УВАГА ДО ДЕТАЛЕЙ</h3>
+            <p class="list-item__text">Ідейні міркування, і навіть початок повсякденної роботи з формування
+              позиції.</p>
+          </li>
+          <li class="list-item">
+            <div class="list-item__box">
+              <picture class="list-item__img">
+                <source srcset="./images/clock@1x.png" media="(max-width: 480px)">
+                <source srcset="./images/clock@2x.png" media="(min-width: 843px)">
+                <source srcset="./images/clock@3x.png" media="(max-width: 1200px)">
+                <img src="./images/clock@1x.png" alt="Cute puppy" width="70px">
+              </picture>
+            </div>
+            <h3 class="list-item__para">ПУНКТУАЛЬНІСТЬ</h3>
+            <p class="list-item__text">Завдання організації, особливо рамки і місце навчання кадрів тягне у
+              себе.</p>
+          </li>
+          <li class="list-item">
+            <div class="list-item__box">
+              <picture class="list-item__img">
+                <source srcset="./images/diagram@1x.png" media="(max-width: 480px)">
+                <source srcset="./images/diagram@2x.png" media="(min-width: 843px)">
+                <source srcset="./images/diagram@3x.png" media="(max-width: 1200px)">
+                <img src="./images/diagram@1x.png" alt="Cute puppy" width="70px">
+              </picture>
+            </div>
+            <h3 class="list-item__para">ПЛАНУВАННЯ</h3>
+            <p class="list-item__text">Так само консультація з широким активом значною мірою зумовлює.</p>
+          </li>
+          <li class="list-item">
+            <div class="list-item__box">
+              <picture class="list-item__img">
+                <source srcset="./images/astronaut@1x.png" media="(max-width: 480px)">
+                <source srcset="./images/astronaut@2x.png" media="(min-width: 843px)">
+                <source srcset="./images/astronaut@3x.png" media="(max-width: 1200px)">
+                <img src="./images/astronaut@1x.png" alt="Cute puppy" width="70px">
+              </picture>
+            </div>
+            <h3 class="list-item__para">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <p class="list-item__text">Значимість цих проблем настільки очевидна, що реалізація планових
+              завдань.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="part3 ">
+      <div class="container">
+        <h2>Наша команда</h2>
+        <ul class="part3__portfolio flex">
+          <li class="portfolio-wrap ">
+            <picture class="portfolio-wrap__img">
+              <source srcset="../images/Man1@1x.jpg" media="(max-width: 480px)">
+              <source srcset="./images/Man1@2x.jpg" media="(min-width: 843px)">
+              <source srcset="./images/Man1@3x.jpg" media="(max-width: 1200px)">
+              <img src="./images/Man1@1x.jpg" alt="Cute puppy" width="270px">
+            </picture>
+            <h3 class="portfolio-wrap__para">Ігор Дем'яненко</h3>
+            <p class="portfolio-wrap__text">Product Designer</p>
+            <div class="portfolio-wrap__imgs flex">
+              <img src="./images/Ellipse.png" alt="inst">
+              <img src="./images/Ellipse (1).png" alt="twit">
+              <img src="./images/Ellipse (2).png" alt="faceb">
+              <img src="./images/Ellipse (3).png" alt="in">
+            </div>
+          </li>
+          <li class="portfolio-wrap">
+            <picture class="portfolio-wrap__img">
+              <source srcset="../images/Man2@1x.jpg" media="(max-width: 480px)">
+              <source srcset="./images/Man2@2x.jpg" media="(min-width: 843px)">
+              <source srcset="./images/Man2@3x.jpg" media="(max-width: 1200px)">
+              <img src="./images/Man2@1x.jpg" alt="Cute puppy" width="270px">
+            </picture>
+            <h3 class="portfolio-wrap__para">Ольга Рєпіна</h3>
+            <p class="portfolio-wrap__text">Frontend Developer</p>
+            <div class="portfolio-wrap__imgs flex">
+              <img src="./images/Ellipse.png" alt="inst">
+              <img src="./images/Ellipse (1).png" alt="twit">
+              <img src="./images/Ellipse (2).png" alt="faceb">
+              <img src="./images/Ellipse (3).png" alt="in">
+            </div>
+          </li>
+          <li class="portfolio-wrap">
+            <picture class="portfolio-wrap__img">
+              <source srcset="./images/Man3@1x.jpg" media="(max-width: 480px)">
+              <source srcset="./images/Man3@2x.jpg" media="(min-width: 843px)">
+              <source srcset="./images/Man3@3x.jpg" media="(max-width: 1200px)">
+              <img src="./images/Man3@1x.jpg" alt="Cute puppy" width="270px">
+            </picture>
+            <h3 class="portfolio-wrap__para">Микола Тарасов</h3>
+            <p class="portfolio-wrap__text">Marketing</p>
+            <div class="portfolio-wrap__imgs flex">
+              <img src="./images/Ellipse.png" alt="inst">
+              <img src="./images/Ellipse (1).png" alt="twit">
+              <img src="./images/Ellipse (2).png" alt="faceb">
+              <img src="./images/Ellipse (3).png" alt="in">
+            </div>
+          </li>
+          <li class="portfolio-wrap">
+            <picture class="portfolio-wrap__img">
+              <source srcset="./images/Man4@1x.jpg" media="(max-width: 480px)">
+              <source srcset="./images/Man4@2x.jpg" media="(min-width: 843px)">
+              <source srcset="./images/Man4@3x.jpg" media="(max-width: 1200px)">
+              <img src="./images/Man4@1x.jpg" alt="Cute puppy" width="270px">
+            </picture>
+            <h3 class="portfolio-wrap__para">Михайло Єрмаков</h3>
+            <p class="portfolio-wrap__text">UI Designer</p>
+            <div class="portfolio-wrap__imgs flex">
+              <img src="./images/Ellipse.png" alt="inst">
+              <img src="./images/Ellipse (1).png" alt="twit">
+              <img src="./images/Ellipse (2).png" alt="faceb">
+              <img src="./images/Ellipse (3).png" alt="in">
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="part4 ">
+      <div class="container">
+        <h2>Постійні клієнти</h2>
+        <div class="part4__imgs ">
+          <picture>
+            <source srcset="./images/Client1@1x.png" media="(max-width: 480px)">
+            <source srcset="./images/Client1@2x.png" media="(min-width: 843px)">
+            <source srcset="./images/Client1@3x.png" media="(max-width: 1200px)">
+            <img src="./images/Client1@1x.png" alt="Client" width="170px">
+          </picture>
+          <picture>
+            <source srcset="./images/Client2@1x.png" media="(max-width: 480px)">
+            <source srcset="./images/Client2@2x.png" media="(min-width: 843px)">
+            <source srcset="./images/Client2@3x.png" media="(max-width: 1200px)">
+            <img src="./images/Client2@1x.png" alt="Client" width="170px">
+          </picture>
+          <picture>
+            <source srcset="./images/Client3@1x.png" media="(max-width: 480px)">
+            <source srcset="./images/Client3@2x.png" media="(min-width: 843px)">
+            <source srcset="./images/Client3@3x.png" media="(max-width: 1200px)">
+            <img src="./images/Client3@1x.png" alt="Client" width="170px">
+          </picture>
+          <picture>
+            <source srcset="./images/Client4@1x.png" media="(max-width: 480px)">
+            <source srcset="./images/Client4@2x.png" media="(min-width: 843px)">
+            <source srcset="./images/Client4@3x.png" media="(max-width: 1200px)">
+            <img src="./images/Client4@1x.png" alt="Client" width="170px">
+          </picture>
+          <picture>
+            <source srcset="./images/Client5@1x.png" media="(max-width: 480px)">
+            <source srcset="./images/Client5@2x.png" media="(min-width: 843px)">
+            <source srcset="./images/Client5@3x.png" media="(max-width: 1200px)">
+            <img src="./images/Client5@1x.png" alt="Client" width="170px">
+          </picture>
+          <picture>
+            <source srcset="./images/Client6@1x.png" media="(max-width: 480px)">
+            <source srcset="./images/Client6@2x.png" media="(min-width: 843px)">
+            <source srcset="./images/Client6@3x.png" media="(max-width: 1200px)">
+            <img src="./images/Client6@1x.png" alt="Client" width="170px">
+          </picture>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer flex">
+    <div class="container ">
+      <div class="footer__logo"><span>Web</span>Studio</div>
+      <p class="footer__address">м. Київ, пр-т Лесі Українки, 26</p>
+      <a href="mailto:info@devstudio.com" class="footer__mail">info@devstudio.com</a>
+      <br>
+      <a href="tel:+38 096 111 11 11" class="footer__tel">+38 096 111 11 11</a>
+      <div class="footer__social">
+        <h3>ПРИЄДНУЙТЕСЬ</h3>
+        <div class="footer__imgs ">
+          <img src="./images/Ellipse (4).png" alt="inst">
+          <img src="./images/Ellipse (5).png" alt="twit">
+          <img src="./images/Ellipse (6).png" alt="faceb">
+          <img src="./images/Ellipse (7).png" alt="in">
+        </div>
+      </div>
+      <div class="footer__inp">
+        <h3 class="footer__inp-text">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</h3>
+        <input placeholder="E-mail" type="mail" class="footer__input">
+        <button class="footer__btn "> Підписатися <img src="./images/icon send.png" alt="telegram"></button>
+      </div>
+    </div>
+  </footer>
+  </div>
+  <div class="menu-container js-menu-container" id="mobile-menu">
+    <button class="menu-toggle js-close-menu">
+      <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+        <path fill-rule="evenodd"
+          d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+          clip-rule="evenodd"></path>
+      </svg>
+    </button>
+
+    <ul class="mobile-menu ">
+      <li><a href="" class="link link1">Студія</a></li>
+      <li><a href="" class="link link1">Портфоліо</a></li>
+      <li><a href="" class="link link1">Контакти</a></li>
+
+    </ul>
+    <ul class="mobile-menu">
+      <li><a href="tel:+38 096 111 11 11" class="link link2-1">+38 096 111 11 11</a></li>
+      <li><a href="mailto:info@devstudio.com" class="link link2">info@devstudio.com</a></li>
+
+
+
+    </ul>
+    <ul class="mobile-menu flex">
+      <li><a href="" class="link link3">Instagram</a></li>
+      <img src="./images/Line 1.png" alt="">
+      <li><a href="" class="link link3">Twitter</a></li>
+      <img src="./images/Line 1.png" alt="">
+      <li><a href="" class="link link3">Facebook</a></li>
+      <img src="./images/Line 1.png" alt="">
+      <li><a href="" class="link link3">LinkedIn</a></li>
+    </ul>
+  </div>
+
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+    integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+    crossorigin="anonymous"></script>
+  <script defer src="js/mobile-menu.js"></script>
+
+</body>
+
+</html>

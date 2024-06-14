@@ -1,0 +1,31 @@
+.part4 {
+    margin-top: 60px;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+    margin-top: 94px;
+
+    h2 {
+        font-family: "Raleway", sans-serif;
+        font-size: 36px;
+        line-height: 42px;
+        font-weight: 700;
+        color: #212121;
+        text-align: center;
+margin-top: 50px;
+    }
+
+    &__imgs {
+        gap: 30px;
+        img{
+            width: 170px; 
+            height: 102px;
+            padding: 20px;
+        }
+   
+
+    }
+}
